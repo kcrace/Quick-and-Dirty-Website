@@ -1,0 +1,64 @@
+
+lorem + tab = lorem ipslum fill
+
+movement
+	ctrl + p = up
+	ctrl + n = down
+	ctrl + f = forward
+	ctrl + b = backward
+
+deleting
+	ctrl + d = delete forward
+	ctrl + h = delete backward
+	ctrl + k = delete all forward
+
+line movement
+	ctrl + e = end of line
+	ctrl + a = beginning of line
+	ctrl + cmd + up/down = move the current line up/down
+
+More Great things
+	cmd + shift + d = duplicate line
+	cmd + d = select word (and can then edit all the same at the same time)
+	ctrl + o = return without moving the cursor
+	cmd + k, cmd + b = side bar
+	cmd + click = set multiple cursors and write everywhere
+	cmd + ]/[ = indent forward/backward even with group of lines
+	cmd + L = highlight all of line your on
+	cmd + u = goes back to previous selection (undo counting selections as a step)
+
+
+	ctrl + cmd + F = fullscreen
+
+	html + tab = the setup for html!
+
+	fn + f11 = show and hide desktop
+
+html shorts
+	div.mason + tab = class
+	dix#mason + tab = id	
+	cmd + / = comment it out!!
+	link + tab = hooks up to a style sheet
+
+
+
+html info
+
+margin- the distance of things outside the element
+padding- the distance inside the element
+
+
+clear: in css (do clear: both;) which recognizes floated things above and goes against it, if you do clear: both it only clears things floated left, same with right.
+
+positions:
+static- default
+
+relative- allows you to specify top, right, bottom, and left and it will move it but it effects nothing else on the page. and moves however many px from its regular position
+
+absolute- no longer apart of its normal flow and lock it in place.  locks every side to what you specify even if it breaks the height and width of the element. so to lock it to the bottom position: absolute, bottom: 0, left: 0, right: 0.relative to the nearest parent containter that has a position relative!!!
+
+fixed- stuck there no matter what.
+
+
+homework:
+come up with a layout, a blog layout for yourself. write a post about what you have learned to
